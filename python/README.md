@@ -7,7 +7,7 @@ Entre na pasta do projeto
 
 Rode na sequencia
 - `cd python` -> Entra na pasta do django
-- `uv venv --python 3.14` -> Cria a venv
+- `uv venv --python=3.14` -> Cria a venv
 - `source .venv/bin/activate` -> Ativa a venv
 - `uv sync` -> Instala dependencias
 - `python manage.py migrate` -> Cria db (sqlite3)
